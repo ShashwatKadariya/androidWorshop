@@ -3,14 +3,12 @@ package com.example.firstapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.RelativeLayout;
 
-public class MainActivity extends AppCompatActivity {
+public class LinearActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_realtive_layout);
+        setContentView(R.layout.activity_linear);
     }
-
 }
