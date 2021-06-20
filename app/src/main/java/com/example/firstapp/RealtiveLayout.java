@@ -15,6 +15,7 @@ public class RealtiveLayout extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_realtive_layout);
 
+        // set TextView1 to Hello World
         TextView text = findViewById(R.id.text1);
         text.setText("HELLO WORLD");
     }
