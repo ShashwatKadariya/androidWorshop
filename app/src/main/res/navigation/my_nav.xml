@@ -16,5 +16,9 @@
         android:id="@+id/fragmentRegistered3"
         android:name="com.example.firstapp.FragmentRegistered"
         android:label="fragment_registered"
-        tools:layout="@layout/fragment_registered" />
+        tools:layout="@layout/fragment_registered" >
+        <action
+            android:id="@+id/action_fragmentRegistered3_to_fragmentRegister3"
+            app:destination="@id/fragmentRegister3" />
+    </fragment>
 </navigation>
