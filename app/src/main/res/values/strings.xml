@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">FirstApp</string>
+    <string name="button">Click Me</string>
+    <string name="app_name">Android Basics</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="power_workshop">Power Workshop 2021</string>
+    <string name="list_view">List View Example</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

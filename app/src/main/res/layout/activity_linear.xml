@@ -8,18 +8,40 @@
     android:orientation = "vertical">
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:text="TextView" />
+        android:text="THESE ARE BUTTON"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:textSize="30sp"/>
 
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
+
+    <Button
+        android:id="@+id/button_relative"
+
+        android:layout_marginTop="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:text="TextView" />
+        android:text="button"/>
+
+    <Button
+        android:id="@+id/button_table"
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="BUTTON"/>
+
+    <Button
+        android:id="@+id/button_linear"
+
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="BUTTON"/>
 
 
 </LinearLayout>

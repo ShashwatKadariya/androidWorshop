@@ -5,63 +5,36 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RealtiveLayout"
-    android:layout_margin="50dp">
+    android:layout_margin="20dp">
 
 
     <TextView
         android:id="@+id/text1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="Testing Relative Layout"/>
+        android:layout_centerHorizontal="true"
+        android:fontFamily="cursive"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="4dp"
+
+        android:textAlignment="center"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/text1"/>
 
     <Button
         android:id="@+id/button1"
-        android:layout_below="@id/text1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:onClick="onTouch"
-        android:text="BUTTON" />
 
-    <Button
-        android:id="@+id/button2"
-        android:layout_toRightOf="@id/button1"
-        android:layout_below="@id/text1"
+        android:layout_below="@+id/inputText1"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginVertical="40dp"
-        android:layout_marginLeft="40dp"
-        android:text="BUTTON" />
-    <Button
-        android:id="@+id/button3"
-        android:layout_below="@+id/button1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="BUTTON"/>
+        android:text="@string/button"/>
 
-    <Button
-        android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/button1"
-        android:layout_toRightOf="@+id/button3"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="40dp"
-        android:text="BUTTON"/>
-
-    <RelativeLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/button3"
-        android:padding="40dp">
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:padding="10dp"
-            android:text="Relative Text" />
-    </RelativeLayout>
 
 </RelativeLayout>
