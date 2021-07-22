@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayData"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+
+    <TextView
+        android:layout_marginTop="200dp"
+        android:id="@+id/dfname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="first name"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/dlname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="last name"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/dusername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="username"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/demail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="email"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/dnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="number"
+        android:layout_marginLeft="120dp"
+        android:layout_marginBottom="20dp"/>
+
+
+</LinearLayout>
