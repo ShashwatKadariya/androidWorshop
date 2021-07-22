@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RelativeActivity">
+
+<TextView
+    android:id="@+id/Rinfo"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="This is Relative Layout"
+    android:layout_centerHorizontal="true"
+    android:textSize="30dp"
+    android:layout_marginBottom="30dp"/>
+
+    <Button
+        android:id="@+id/Rbutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Rinfo"
+        android:text="Button 1"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/Rbutton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button 2"
+        android:layout_below="@+id/Rinfo"
+        android:layout_toRightOf="@+id/Rbutton1"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/Rbutton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Rinfo"
+        android:layout_toRightOf="@+id/Rbutton2"
+        android:text="Button5"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:id="@+id/Rbutton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Rbutton1"
+        android:text="Button 3"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/Rbutton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Rbutton2"
+        android:layout_toRightOf="@+id/Rbutton3"
+        android:text="Button 4"
+        android:layout_margin="20dp"/>
+
+    <Button
+        android:id="@+id/Rbutton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Rbutton4"
+        android:layout_centerHorizontal="true"
+        android:text="Main Button"
+        android:layout_margin="20dp"/>
+
+</RelativeLayout>
