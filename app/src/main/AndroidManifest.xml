@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstApp">
-        <activity android:name=".DisplayData"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DisplayData" />
         <activity android:name=".FrameLayout" />
         <activity android:name=".TableLayout" />
         <activity android:name=".RelativeActivity" />
         <activity android:name=".LinearActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".RegisterForm">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
